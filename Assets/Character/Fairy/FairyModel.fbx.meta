@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 99ce63530ed6df14d8a6b797f0038f2c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_L_1
+    100002: arm_L_2
+    100004: arm_R_1
+    100006: arm_R_2
+    100008: eye_L
+    100010: eye_R
+    100012: //RootNode
+    100014: fairy
+    100016: hane
+    100018: hane_L_1
+    100020: hane_L_2
+    100022: hane_L_3
+    100024: hane_L_4
+    100026: hane_R_1
+    100028: hane_R_2
+    100030: hane_R_3
+    100032: hane_R_4
+    100034: head
+    100036: kubi_1
+    100038: kubi_2
+    100040: kuchi
+    100042: kuchi_mawari
+    100044: leg_L_1
+    100046: leg_L_2
+    100048: leg_L_3
+    100050: leg_R_1
+    100052: leg_R_2
+    100054: leg_R_3
+    100056: mata
+    100058: mune
+    100060: nodo
+    100062: onaka
+    400000: arm_L_1
+    400002: arm_L_2
+    400004: arm_R_1
+    400006: arm_R_2
+    400008: eye_L
+    400010: eye_R
+    400012: //RootNode
+    400014: fairy
+    400016: hane
+    400018: hane_L_1
+    400020: hane_L_2
+    400022: hane_L_3
+    400024: hane_L_4
+    400026: hane_R_1
+    400028: hane_R_2
+    400030: hane_R_3
+    400032: hane_R_4
+    400034: head
+    400036: kubi_1
+    400038: kubi_2
+    400040: kuchi
+    400042: kuchi_mawari
+    400044: leg_L_1
+    400046: leg_L_2
+    400048: leg_L_3
+    400050: leg_R_1
+    400052: leg_R_2
+    400054: leg_R_3
+    400056: mata
+    400058: mune
+    400060: nodo
+    400062: onaka
+    4300000: hane
+    4300002: fairy
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: fairy
+    13700002: hane
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

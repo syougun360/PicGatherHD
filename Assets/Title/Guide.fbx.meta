@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 1a659172255864f4dab5c4654612c2d9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_L_1
+    100002: arm_L_2
+    100004: arm_R_1
+    100006: arm_R_2
+    100008: eye_L
+    100010: eye_R
+    100012: fairy
+    100014: //RootNode
+    100016: hane_L_1
+    100018: hane_L_2
+    100020: hane_L_3
+    100022: hane_L_4
+    100024: hane_R_1
+    100026: hane_R_2
+    100028: hane_R_3
+    100030: hane_R_4
+    100032: head
+    100034: kubi_1
+    100036: kubi_2
+    100038: kuchi
+    100040: kuchi_mawari
+    100042: leg_L_1
+    100044: leg_L_2
+    100046: leg_L_3
+    100048: leg_R_1
+    100050: leg_R_2
+    100052: leg_R_3
+    100054: mata
+    100056: mune
+    100058: nodo
+    100060: onaka
+    100062: tsue
+    100064: tsue 1
+    100066: hane
+    100068: polySurface19
+    100070: polySurface20
+    100072: polySurface21
+    100074: polySurface22
+    100076: polySurface23
+    100078: transform3
+    100080: transform4
+    100082: transform5
+    100084: transform6
+    100086: transform7
+    400000: arm_L_1
+    400002: arm_L_2
+    400004: arm_R_1
+    400006: arm_R_2
+    400008: eye_L
+    400010: eye_R
+    400012: fairy
+    400014: //RootNode
+    400016: hane_L_1
+    400018: hane_L_2
+    400020: hane_L_3
+    400022: hane_L_4
+    400024: hane_R_1
+    400026: hane_R_2
+    400028: hane_R_3
+    400030: hane_R_4
+    400032: head
+    400034: kubi_1
+    400036: kubi_2
+    400038: kuchi
+    400040: kuchi_mawari
+    400042: leg_L_1
+    400044: leg_L_2
+    400046: leg_L_3
+    400048: leg_R_1
+    400050: leg_R_2
+    400052: leg_R_3
+    400054: mata
+    400056: mune
+    400058: nodo
+    400060: onaka
+    400062: tsue
+    400064: tsue 1
+    400066: hane
+    400068: polySurface19
+    400070: polySurface20
+    400072: polySurface21
+    400074: polySurface22
+    400076: polySurface23
+    400078: transform3
+    400080: transform4
+    400082: transform5
+    400084: transform6
+    400086: transform7
+    4300000: fairy
+    4300002: tsue
+    4300004: polySurface23
+    4300006: hane
+    7400000: Guide
+    9500000: //RootNode
+    13700000: fairy
+    13700002: tsue
+    13700004: hane
+    13700006: polySurface23
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Guide
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fairy
+        weight: 1
+      - path: onaka
+        weight: 1
+      - path: onaka/mata
+        weight: 1
+      - path: onaka/mata/leg_L_1
+        weight: 1
+      - path: onaka/mata/leg_L_1/leg_L_2
+        weight: 1
+      - path: onaka/mata/leg_L_1/leg_L_2/leg_L_3
+        weight: 1
+      - path: onaka/mata/leg_R_1
+        weight: 1
+      - path: onaka/mata/leg_R_1/leg_R_2
+        weight: 1
+      - path: onaka/mata/leg_R_1/leg_R_2/leg_R_3
+        weight: 1
+      - path: onaka/mune
+        weight: 1
+      - path: onaka/mune/arm_L_1
+        weight: 1
+      - path: onaka/mune/arm_L_1/arm_L_2
+        weight: 1
+      - path: onaka/mune/arm_L_1/arm_L_2/tsue 1
+        weight: 1
+      - path: onaka/mune/arm_R_1
+        weight: 1
+      - path: onaka/mune/arm_R_1/arm_R_2
+        weight: 1
+      - path: onaka/mune/hane_L_1
+        weight: 1
+      - path: onaka/mune/hane_L_1/hane_L_2
+        weight: 1
+      - path: onaka/mune/hane_L_3
+        weight: 1
+      - path: onaka/mune/hane_L_3/hane_L_4
+        weight: 1
+      - path: onaka/mune/hane_R_1
+        weight: 1
+      - path: onaka/mune/hane_R_1/hane_R_2
+        weight: 1
+      - path: onaka/mune/hane_R_3
+        weight: 1
+      - path: onaka/mune/hane_R_3/hane_R_4
+        weight: 1
+      - path: onaka/mune/kubi_1
+        weight: 1
+      - path: onaka/mune/kubi_1/kubi_2
+        weight: 1
+      - path: onaka/mune/kubi_1/kubi_2/head
+        weight: 1
+      - path: onaka/mune/kubi_1/kubi_2/head/eye_L
+        weight: 1
+      - path: onaka/mune/kubi_1/kubi_2/head/eye_R
+        weight: 1
+      - path: onaka/mune/kubi_1/nodo
+        weight: 1
+      - path: onaka/mune/kubi_1/nodo/kuchi
+        weight: 1
+      - path: onaka/mune/kubi_1/nodo/kuchi_mawari
+        weight: 1
+      - path: tsue
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

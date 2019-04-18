@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 8df35051f3def9d42a7e691fb0cd029d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - EffectPrefab: {fileID: 187388, guid: 1f162e753761561419e2d11f9a6e4c72, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

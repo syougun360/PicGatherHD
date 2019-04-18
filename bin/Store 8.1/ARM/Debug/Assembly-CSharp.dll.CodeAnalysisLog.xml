@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="C:\Users\vamtan\Documents\GitHub\PicGather\PicGather\bin\Store 8.1\ARM\Debug\Assembly-CSharp.dll">
+   <Modules>
+    <Module Name="assembly-csharp.dll">
+     <Messages>
+      <Message TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">AssemblyVersion 属性を 'Assembly-CSharp.dll' に追加してください。</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="FBAppRequestsFilterGroup" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'FBAppRequestsFilterGroup' は ComVisible(true) に設定されていますが、次の ComVisible(false) 型がそのオブジェクト階層に存在しています: 'Dictionary&lt;string, object&gt;'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="LitJson">
+       <Types>
+        <Type Name="JsonData" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#LitJson.IOrderedDictionary.GetEnumerator()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="644">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IOrderedDictionary.GetEnumerator()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LitJson.IOrderedDictionary.Insert(System.Int32,System.Object,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="649">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IOrderedDictionary.Insert(int, object, object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LitJson.IOrderedDictionary.RemoveAt(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="657">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IOrderedDictionary.RemoveAt(int)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.ICollection.CopyTo(System.Array,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="477">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'ICollection.CopyTo(Array, int)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.ICollection.IsSynchronized" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.ICollection.get_IsSynchronized()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="77">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'ICollection.IsSynchronized.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.ICollection.SyncRoot" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.ICollection.get_SyncRoot()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="81">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'ICollection.SyncRoot.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.Contains(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="499">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.Contains(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.GetEnumerator()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="503">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.GetEnumerator()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.IsFixedSize" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IDictionary.get_IsFixedSize()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="89">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.IsFixedSize.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.IsReadOnly" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IDictionary.get_IsReadOnly()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="93">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.IsReadOnly.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.Remove(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="507">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.Remove(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.Values" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IDictionary.get_Values()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="108">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.Values.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IEnumerable.GetEnumerator()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="522">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IEnumerable.GetEnumerator()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.Contains(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="617">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.Contains(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.IndexOf(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="621">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.IndexOf(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.Insert(System.Int32,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="625">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.Insert(int, object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.IsFixedSize" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IList.get_IsFixedSize()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="123">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.IsFixedSize.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IList.IsReadOnly" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IList.get_IsReadOnly()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="127">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.IsReadOnly.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IList.Remove(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="630">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.Remove(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.RemoveAt(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonData.cs" Line="635">'JsonData' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.RemoveAt(int)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="JsonMockWrapper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#LitJson.IOrderedDictionary.GetEnumerator()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="87">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IOrderedDictionary.GetEnumerator()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LitJson.IOrderedDictionary.Insert(System.Int32,System.Object,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="91">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IOrderedDictionary.Insert(int, object, object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LitJson.IOrderedDictionary.Item[System.Int32]" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#LitJson.IOrderedDictionary.get_Item(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="83">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IOrderedDictionary.this.get(int)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#LitJson.IOrderedDictionary.set_Item(System.Int32,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="84">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IOrderedDictionary.this.set(int, object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#LitJson.IOrderedDictionary.RemoveAt(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="92">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IOrderedDictionary.RemoveAt(int)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.ICollection.CopyTo(System.Array,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="60">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'ICollection.CopyTo(Array, int)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.ICollection.Count" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.ICollection.get_Count()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="56">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'ICollection.Count.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.ICollection.IsSynchronized" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.ICollection.get_IsSynchronized()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="57">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'ICollection.IsSynchronized.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.ICollection.SyncRoot" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.ICollection.get_SyncRoot()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="58">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'ICollection.SyncRoot.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.Add(System.Object,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="75">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.Add(object, object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.Clear()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="76">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.Clear()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.Contains(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="77">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.Contains(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.GetEnumerator()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="80">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.GetEnumerator()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.IsFixedSize" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IDictionary.get_IsFixedSize()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="64">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.IsFixedSize.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.IsReadOnly" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IDictionary.get_IsReadOnly()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="65">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.IsReadOnly.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.Item[System.Object]" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IDictionary.get_Item(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="71">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.this.get(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#System.Collections.IDictionary.set_Item(System.Object,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="72">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.this.set(object, object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.Keys" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IDictionary.get_Keys()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="67">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.Keys.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.Remove(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="78">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.Remove(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IDictionary.Values" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IDictionary.get_Values()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="68">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IDictionary.Values.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IEnumerable.GetEnumerator()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="62">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IEnumerable.GetEnumerator()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.Add(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="48">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.Add(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.Clear()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="49">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.Clear()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.Contains(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="50">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.Contains(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.IndexOf(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="51">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.IndexOf(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.Insert(System.Int32,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="52">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.Insert(int, object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.IsFixedSize" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IList.get_IsFixedSize()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="40">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.IsFixedSize.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IList.IsReadOnly" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IList.get_IsReadOnly()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="41">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.IsReadOnly.get()' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IList.Item[System.Int32]" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#System.Collections.IList.get_Item(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="44">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.this.get(int)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#System.Collections.IList.set_Item(System.Int32,System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="45">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.this.set(int, object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#System.Collections.IList.Remove(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="53">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.Remove(object)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#System.Collections.IList.RemoveAt(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2015-02-05 15:48:47Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\vamtan\Documents\GitHub\PicGather\PicGather\Assets\LitJson" File="JsonMockWrapper.cs" Line="54">'JsonMockWrapper' を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または 'IList.RemoveAt(int)' の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405">
+   <Name>COM 参照可能な型の基本型は COM 参照可能でなければなりません</Name>
+   <Description>COM 参照可能な型は、COM 参照可能なオブジェクト階層を含んでいなければなりません。</Description>
+   <Resolution Name="Default">{0} は ComVisible(true) に設定されていますが、次の ComVisible(false) 型がそのオブジェクト階層に存在しています: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182202.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033">
+   <Name>インターフェイス メソッドは、子型によって呼び出し可能でなければなりません</Name>
+   <Description>明示的なメソッドの実装は、プライベート アクセシビリティを伴って定義されます。明示的なメソッドの実装を伴うクラスから派生するクラス、およびクラスでそれらを再定義することを選択するクラスは、基底クラスが適切なアクセシビリティを伴う代替メソッドを指定していない場合、基底クラスの実装に呼び出しを行うことはできません。基底クラスの実装に呼び出しを行うために、明示的なインターフェイスの実装によって隠された基底クラス メソッドをオーバーライドする場合、派生クラスは基本ポインターを適切なインターフェイスにキャストしなければなりません。この参照をとおして呼び出す場合、派生クラスの実装が実際に呼び出され、結果的には、再帰およびスタック オーバーフローを発生させる原因となります。</Description>
+   <Resolution Name="Default">{0} を sealed に設定 (このクラスが以前に出荷された場合は、コードに対する重大な変更です) して、メソッドを非明示的に実装するか、または {1} の機能を公開して、派生クラスが参照可能な新しいメソッドを実装します。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182153.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016">
+   <Name>アセンブリに AssemblyVersionAttribute を設定します</Name>
+   <Description>アセンブリはバージョン番号を使用しなければなりません。バージョン番号はアセンブリの ID の一部と見なされます。バージョン管理は AssemblyVersion 属性によって適用されます。</Description>
+   <Resolution Name="Default">AssemblyVersion 属性を {0} に追加してください。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182155.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">カテゴリ</String>
+  <String Key="Certainty">確実性</String>
+  <String Key="CollapseAll">すべて折りたたみ</String>
+  <String Key="CheckId">ID の確認</String>
+  <String Key="Error">エラー</String>
+  <String Key="Errors">エラー</String>
+  <String Key="ExpandAll">すべて展開</String>
+  <String Key="Help">ヘルプ</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">メッセージ</String>
+  <String Key="LocationNotStoredInPdb">[場所は Pdb に格納されていません]</String>
+  <String Key="Project">プロジェクト</String>
+  <String Key="Resolution">解像度</String>
+  <String Key="Rule">ルール</String>
+  <String Key="RuleFile">規則ファイル</String>
+  <String Key="RuleDescription">規則の説明</String>
+  <String Key="Source">ソース</String>
+  <String Key="Status">状態</String>
+  <String Key="Target">ターゲット</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">コード分析レポート</String>
+ </Localized>
+</FxCopReport>
